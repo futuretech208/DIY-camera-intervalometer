@@ -1,5 +1,4 @@
 # DIY-camera-intervalometer
-Made using Arduino UNO and LCD kepad shield for UNO.
 
 The circuit diagram is simple and I will be updating it soon.
 
