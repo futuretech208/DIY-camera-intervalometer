@@ -243,6 +243,10 @@ void MenuF()
         digitalWrite(shutterPin, LOW);
         digitalWrite(focusPin, LOW);
         delay(delayTot * 1000);
+            if (ReadKeypad() == 'U'){      // Emergency stop
+       i = picS;
+       break;
+            }
       }
       lcd.clear();
       lcd.setCursor(0, 0);
